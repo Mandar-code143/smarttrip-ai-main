@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# 🌍 SmartTrip AI – Agentic Travel Planning System
 
-## Project info
+SmartTrip AI is an intelligent travel planning system that uses AI to plan, check, and continuously improve travel itineraries. Unlike traditional planners, it behaves like a **smart travel assistant** that can adapt to changes and explain its decisions.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Live Demo
 
-There are several ways of editing your application.
+🌐 https://id-preview--c141b782-9def-4529-872a-a29ffb8f5dd5.lovable.app/
 
-**Use Lovable**
+> You can test the full working system here.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💻 GitHub Repository
 
-**Use your preferred IDE**
+🔗 https://github.com/Mandar-code143/smarttrip-ai
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Problem Statement
 
-Follow these steps:
+Most travel planning tools generate fixed plans that break when conditions change such as budget, weather, or preferences. Users are forced to manually adjust everything again.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+There is a need for a system that can **adapt automatically and make smart decisions like a human travel expert**.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🤖 Solution
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+SmartTrip AI solves this by using an AI-based system that:
+
+- Plans trips automatically  
+- Checks constraints like budget and time  
+- Re-plans when needed  
+- Explains every decision  
+
+---
+
+## 🔁 How It Works
+
+1. User enters trip details (budget, days, city, preferences)
+2. AI generates a day-wise travel plan
+3. System checks:
+   - Budget
+   - Time
+   - Feasibility
+4. If something fails → AI re-plans automatically
+5. Final plan is shown with explanation
+
+---
+
+## ✨ Key Features
+
+- 📅 Day-wise intelligent itinerary planning  
+- 💰 Budget-aware planning and cost breakdown  
+- 🔄 Automatic re-planning when constraints fail  
+- 🌦️ Weather-aware adjustments  
+- 🧠 AI explanation for decisions (“WHY this plan”)  
+- 🏨 Hotel and transport suggestions with booking links  
+- 🗺️ Map and location-based route optimization  
+- 🚨 Emergency & safety support (hospitals, contacts)  
+- 🩺 AI doctor assistant for basic health guidance  
+- 🗣️ Natural language trip modification  
+
+---
+
+## 💡 Innovation
+
+- Uses a **real AI decision-making system**, not static rules  
+- Automatically adapts to real-world changes  
+- Provides clear reasoning behind every decision  
+- Combines planning, safety, and assistance in one system  
+
+---
+
+## 🛠️ Technology Stack
+
+- React.js  
+- TypeScript  
+- JavaScript  
+- Tailwind CSS  
+- Supabase  
+- Supabase Edge Functions  
+- Google Gemini API  
+- REST APIs  
+- Node.js  
+
+---
+
+## ⚙️ Setup Instructions (Optional)
+
+To run locally:
+
+1. Install Node.js  
+2. Install dependencies:
+   ```bash
+   npm install
+
+   Run the app:
+
 npm run dev
-```
+Configure your own API keys (Gemini, etc.)
 
-**Edit a file directly in GitHub**
+Note: API keys are not included for security reasons.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🚀 Future Scope
+Direct booking integration (flights, hotels)
+Voice-based interaction
+Mobile app version
+Advanced personalization
+👤 Author
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Mandar Deshmukh
+Artificial Intelligence & Data Science
+Yeshwantrao Chavan College of Engineering
